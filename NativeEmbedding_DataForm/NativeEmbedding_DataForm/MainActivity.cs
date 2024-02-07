@@ -25,7 +25,6 @@ namespace NativeEmbedding_DataForm
             {
                 DataObject = new DataFormModel()
             };
-            dataForm.BindingContext = new DataFormViewModel();
             Android.Views.View view = dataForm.ToPlatform(_mauiContext);
 
             SetContentView(view);
